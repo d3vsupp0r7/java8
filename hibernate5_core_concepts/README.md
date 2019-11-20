@@ -1,0 +1,7 @@
+# Hibernate
+
+# JPA
+
+# JPQL
+
+# HQL

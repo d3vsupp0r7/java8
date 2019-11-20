@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+	<mapping>
+		<class-a>org.lba.dozer.simple.source.SourceObject</class-a>
+		<class-b>org.lba.dozer.simple.destination.DestinationObject</class-b>
+		<field>
+			<a>name</a>
+			<b>fieldString1</b>
+		</field>
+		<field>
+			<a>age</a>
+			<b>fieldInt1</b>
+		</field>
+		<field>
+			<a>city</a>
+			<b>fieldString2</b>
+		</field>
+	</mapping>
+
+</mappings> 
