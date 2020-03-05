@@ -34,8 +34,7 @@ public class ComparatorMainApp_OnlyBoolean {
 		listTwo.add(new SampleObject("CTom", "Error", 35,false));
 		listTwo.add(new SampleObject("A1Aom", "Failed", 21, false));
 		/**/
-		executeSortReverse(listTwo);
-		
+		executeSortReverse(listTwo);		
 
 	}
 
