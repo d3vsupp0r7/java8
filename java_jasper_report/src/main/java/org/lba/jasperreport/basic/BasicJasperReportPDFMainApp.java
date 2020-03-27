@@ -34,7 +34,7 @@ public class BasicJasperReportPDFMainApp {
 			JRBeanCollectionDataSource jrBeanCollectionDataSource = new JRBeanCollectionDataSource(empList);
 			//Step 4. Optionally add a parameter
 			Map<String, Object> parameters = new HashMap<>();
-			parameters.put("createdBy", "ExampleParameterPasseToReport");
+			parameters.put("createdBy", "ExampleParameterPassedToReport");
 			//Step 5.Fill the list of employee and parameters into the report 
 			JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReport, parameters, jrBeanCollectionDataSource);
 			//Step 6: Output
