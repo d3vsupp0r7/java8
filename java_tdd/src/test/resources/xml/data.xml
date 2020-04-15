@@ -1,0 +1,10 @@
+<test>
+    <case id='1'>
+        <param>param1</param>
+        <expected>sample_data_01</expected>
+    </case>
+    <case id='2'>
+        <param>param2</param>
+        <expected>sample_data_02</expected>
+    </case>
+</test>
