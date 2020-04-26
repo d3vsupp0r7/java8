@@ -65,6 +65,9 @@ public class CompareTripletsUsingOpenCSVLibrary {
 		CompareTripletsUsingOpenCSVLibrary simpleArrayNum3 = new CompareTripletsUsingOpenCSVLibrary();
 		File file = simpleArrayNum3.getFileFromResources("csv/data01/data-ex2.csv");
 		String csvFilename =  file.getAbsolutePath();
+		if(csvFilename.contains("%20")) {
+			csvFilename = csvFilename.replaceAll("%20", " ");
+		}
 
 		/*2. define the split char*/
 		String splitChar = " ";

@@ -50,7 +50,10 @@ public class BigSumUsingOpenCSVLibrary {
 		/*1. Read file*/
 		BigSumUsingOpenCSVLibrary simpleArrayNum3 = new BigSumUsingOpenCSVLibrary();
 		File file = simpleArrayNum3.getFileFromResources("csv/data01/data-ex3.csv");
-		String csvFilename =  file.getAbsolutePath();
+		String csvFilename = file.getAbsolutePath();
+		if(csvFilename.contains("%20")) {
+			csvFilename = csvFilename.replaceAll("%20", " ");
+		}
 
 		/*2. define the split char*/
 		String splitChar = " ";

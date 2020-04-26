@@ -44,6 +44,9 @@ public class SimpleArrayNumUsingOpenCSVLibrary {
 		SimpleArrayNumUsingOpenCSVLibrary simpleArrayNum3 = new SimpleArrayNumUsingOpenCSVLibrary();
 		File file = simpleArrayNum3.getFileFromResources("csv/data01/data-ex1.csv");
 		String csvFilename =  file.getAbsolutePath();
+		if(csvFilename.contains("%20")) {
+			csvFilename = csvFilename.replaceAll("%20", " ");
+		}
 		
 		/*2. define the split char*/
 		String splitChar = " ";
