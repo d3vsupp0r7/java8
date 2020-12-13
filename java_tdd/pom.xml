@@ -5,26 +5,32 @@
   <version>0.0.1-SNAPSHOT</version>
   
   <properties>
+  
 		<!-- Java -->
 		<java.version>1.8</java.version>
+		
 		<!-- Spring version -->
 		<spring.version>4.3.26.RELEASE</spring.version>
-		<spring-integration.version>4.3.20.RELEASE
-		</spring-integration.version>
+		<spring-integration.version>4.3.20.RELEASE</spring-integration.version>
 		<spring-data.version>1.6.6.RELEASE</spring-data.version>
 
 		<!-- Database Framework -->
 		<hibernate.version>4.3.11.Final</hibernate.version>
+		
 		<!-- Util library -->
 		<log4j.version>1.2.17</log4j.version>
 		<slf4j.version>1.6.1</slf4j.version>
 		<jackson.version>2.9.9</jackson.version>
+		
+		<opencsv.version>5.1</opencsv.version>
+		
 		<!-- Test libraries -->
 		<junit.version>4.12</junit.version>
 		<easymock.version>3.1</easymock.version>
 
 		<!-- In memory DB -->
 		<h2.version>1.4.199</h2.version>
+		
 		<!-- maven plugin -->
 		<maven-compiler-plugin.version>3.6.1</maven-compiler-plugin.version>
 
@@ -39,6 +45,7 @@
 			<version>3.0.1</version>
 			<scope>provided</scope>
 		</dependency>
+		
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
@@ -51,16 +58,19 @@
 			<artifactId>spring-core</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
+		
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
+		
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-web</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
+		
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
@@ -73,6 +83,7 @@
 			<artifactId>spring-data-jpa</artifactId>
 			<version>${spring-data.version}</version>
 		</dependency>
+		
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-tx</artifactId>
@@ -85,6 +96,7 @@
 			<artifactId>hibernate-core</artifactId>
 			<version>${hibernate.version}</version>
 		</dependency>
+		
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-entitymanager</artifactId>
@@ -104,12 +116,14 @@
 			<artifactId>log4j</artifactId>
 			<version>${log4j.version}</version>
 		</dependency>
+		
 		<!-- Slf4j Log -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-simple</artifactId>
 			<version>${slf4j.version}</version>
 		</dependency>
+		
 		<!-- Jackson -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
@@ -131,6 +145,7 @@
 			<version>${spring.version}</version>
 			<scope>test</scope>
 		</dependency>
+		
 		<!-- Junit -->
 		<dependency>
 			<groupId>junit</groupId>
@@ -138,6 +153,7 @@
 			<version>${junit.version}</version>
 			<scope>test</scope>
 		</dependency>
+		
 		<!-- EasyMock -->
 		<dependency>
 			<groupId>org.easymock</groupId>
@@ -145,12 +161,14 @@
 			<version>${easymock.version}</version>
 			<scope>test</scope>
 		</dependency>
+		
 		<!-- OpenCSV -->
 		<dependency>
 			<groupId>com.opencsv</groupId>
 			<artifactId>opencsv</artifactId>
-			<version>5.1</version>
+			<version>${opencsv.version}</version>
 		</dependency>
+		
 	</dependencies>
 
 	<build>
