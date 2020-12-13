@@ -25,7 +25,7 @@
 		<opencsv.version>5.1</opencsv.version>
 		
 		<!-- Test libraries -->
-		<junit.version>4.12</junit.version>
+		<junit.version>4.13.1</junit.version>
 		<easymock.version>3.1</easymock.version>
 
 		<!-- In memory DB -->
