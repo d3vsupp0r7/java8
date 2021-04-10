@@ -11,7 +11,7 @@
 		<spring.version>4.3.26.RELEASE</spring.version>
 		<spring-integration.version>4.3.20.RELEASE
 		</spring-integration.version>
-		<spring-data.version>1.6.6.RELEASE</spring-data.version>
+		<spring-data.version>1.11.23.RELEASE</spring-data.version>
 
 		<!-- Database Framework -->
 		<hibernate.version>4.3.11.Final</hibernate.version>
