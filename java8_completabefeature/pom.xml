@@ -14,7 +14,7 @@
 		<microsoft.sql.driver.version>8.2.2.jre8</microsoft.sql.driver.version>
 		<hibernate-core.version>5.3.10.Final</hibernate-core.version>
 		<hibernate-validator.version>5.3.10.Final</hibernate-validator.version>
-		<h2.version>1.4.199</h2.version>
+		<h2.version>2.0.206</h2.version>
 		<!-- maven plugin -->
 		<maven-compiler-plugin.version>3.6.1</maven-compiler-plugin.version>
 
