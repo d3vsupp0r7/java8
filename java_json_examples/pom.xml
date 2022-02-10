@@ -19,7 +19,7 @@
 		<assertj.version>3.18.1</assertj.version>
 
 		<!-- Database Framework -->
-		<hibernate.version>5.3.10.Final</hibernate.version>
+		<hibernate.version>5.4.24.Final</hibernate.version>
 		
 		<!-- In memory DB -->
 		<h2.version>1.4.199</h2.version>
