@@ -19,7 +19,7 @@
 		<jackson.version>2.9.9</jackson.version>
 		
 		<!-- -->
-		<hibernate-core.version>5.0.7.Final</hibernate-core.version>
+		<hibernate-core.version>5.4.24.Final</hibernate-core.version>
 		<hibernate-validator.version>5.0.7.Final</hibernate-validator.version>
 		<h2.version>1.4.199</h2.version>
 		<!-- maven plugin -->
