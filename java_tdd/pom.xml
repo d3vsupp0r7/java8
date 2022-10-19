@@ -20,7 +20,7 @@
 		<!-- Util library -->
 		<log4j.version>1.2.17</log4j.version>
 		<slf4j.version>1.6.1</slf4j.version>
-		<jackson.version>2.9.9</jackson.version>
+		<jackson.version>2.13.4.1</jackson.version>
 		
 		<opencsv.version>5.1</opencsv.version>
 		
