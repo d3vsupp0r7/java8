@@ -17,7 +17,7 @@
 		<!-- Util library -->
 		<log4j.version>1.2.17</log4j.version>
 		<!-- -->
-		<hibernate-core.version>5.0.7.Final</hibernate-core.version>
+		<hibernate-core.version>5.3.20.Final</hibernate-core.version>
 		<hibernate-validator.version>5.0.7.Final</hibernate-validator.version>
 		<h2.version>1.4.199</h2.version>
 		<!-- maven plugin -->
