@@ -14,7 +14,7 @@
 		<spring-data.version>1.6.6.RELEASE</spring-data.version>
 
 		<!-- Database Framework -->
-		<hibernate.version>4.3.11.Final</hibernate.version>
+		<hibernate.version>5.3.20.Final</hibernate.version>
 		<!-- Util library -->
 		<log4j.version>1.2.17</log4j.version>
 		<slf4j.version>1.6.1</slf4j.version>
